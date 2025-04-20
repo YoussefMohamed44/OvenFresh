@@ -1,0 +1,34 @@
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\appsettings.Development.json
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\appsettings.json
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\MVC Project.staticwebassets.runtime.json
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\MVC Project.staticwebassets.endpoints.json
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\MVC Project.exe
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\MVC Project.deps.json
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\MVC Project.runtimeconfig.json
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\MVC Project.dll
+E:\Matrials\MVC Project\MVC Project\bin\Debug\net8.0\MVC Project.pdb
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfoInputs.cache
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfo.cs
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.csproj.CoreCompileInputs.cache
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.MvcApplicationPartsAssemblyInfo.cache
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cache
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cs
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\scopedcss\bundle\MVC Project.styles.css
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\scopedcss\projectbundle\MVC Project.bundle.scp.css
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets.build.json
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets.development.json
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.MVC Project.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.MVC Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.build.MVC Project.props
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MVC Project.props
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MVC Project.props
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.dll
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\refint\MVC Project.dll
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.pdb
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.genruntimeconfig.cache
+E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\ref\MVC Project.dll

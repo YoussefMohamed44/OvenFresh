@@ -1,0 +1,30 @@
+﻿@{
+      ViewData["Title"] = "Freshly Baked Delights";
+
+}
+
+<section class="hero-banner">
+    <div class="hero-content">
+		<h1>Freshly Baked Delights</h1>
+		<p>Artisan breads and pastries delivered to your door</p>
+		<a href="/products" class="btn btn-primary">Shop Now</a>
+	</div>
+</section>
+
+<section class="categories">
+    <h2>Our Categories</h2>
+    <div class="category-grid">
+        @* @foreach (var category in Model.Categories) *@
+        @* { *@
+        @*     <div class="category-card"> *@
+        @*         <img src="@category.ImageUrl" alt="@category.Name"> *@
+        @*         <h3>@category.Name</h3> *@
+        @*     </div> *@
+        @* } *@
+    </div>
+</section>
+
+<section class="popular-products">
+    <h2>Our Best Sellers</h2>
+    @* @await Html.PartialAsync("_ProductGrid", Model.FeaturedProducts) *@
+</section>

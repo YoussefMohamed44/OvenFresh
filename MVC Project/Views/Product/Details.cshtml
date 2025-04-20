@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model ProductDetailViewModel
+      
+@{
+    ViewData["Title"] = Model.Product.Name;
+}
+      
+<section class="product-detail">
+    <div class="product-images">
+        <img src="@Model.Product" alt="@Model.Product.Name">
+    </div>
+          
+    <div class="product-info">
+        <h1>@Model.Product.Name</h1>
+        <!-- Rest of product details code from earlier -->
+    </div>
+          
+    <section id="reviews" class="product-reviews">
+        <h2>Customer Reviews</h2>
+        @foreach (var review in Model.Reviews)
+        {                  
+            <div class="review">
+                <div class="review-header">
+                    <div class="reviewer">@review.UserName</div>
+                    <div class="review-rating">@Html.Raw(GetStarRating(review.Rating))</div>
+                    <div class="review-date">@review.Date.ToString("MMMM dd, yyyy")</div>
+                </div>
+                <div class="review-content">
+                    <p>@review.Comment</p>
+                </div>
+            </div>
+        }
+    </section>
+</section>
+
+@functions {
+    public string GetStarRating(int rating)
+    {
+        return new string('★', rating) + new string('☆', 5 - rating);
+    }
+}

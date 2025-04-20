@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<ProductViewModel>
+
+<div class="product-grid">
+    @foreach (var product in Model)
+    {
+        <div class="product-card">
+            <img src="@product.ImageUrl" alt="@product.Name">
+            <div class="product-info">
+                <h3>@product.Name</h3>
+                <div class="product-rating">
+                    <div class="stars">
+                        @* @Html.Raw(GetStarRating(product.AverageRating)) *@
+                    </div>
+                    <span class="review-count">(@product.ReviewCount reviews)</span>
+                </div>
+                <p class="product-price">@product.Price.ToString("C")</p>
+                <button class="btn btn-add-to-cart" data-id="@product.Id">Add to Cart</button>
+            </div>
+        </div>
+    }
+</div>

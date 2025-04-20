@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<section class="user-dashboard">
+    <div class="dashboard-sidebar">
+        <div class="user-profile">
+            <img src="/images/user-avatar.jpg" alt="User">
+            <h3>John Doe</h3>
+        </div>
+
+        <nav class="dashboard-nav">
+            <a href="/dashboard" class="active"><i class="fas fa-user"></i> Profile</a>
+            <a href="/dashboard/orders"><i class="fas fa-shopping-bag"></i> My Orders</a>
+            <a href="/dashboard/addresses"><i class="fas fa-map-marker-alt"></i> Addresses</a>
+            <a href="/dashboard/reviews"><i class="fas fa-star"></i> My Reviews</a>
+            <a href="/account/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </nav>
+    </div>
+
+    <div class="dashboard-content">
+        <h1>My Dashboard</h1>
+
+        <div class="dashboard-cards">
+            <div class="dashboard-card">
+                <div class="card-icon"><i class="fas fa-shopping-bag"></i></div>
+                <div class="card-content">
+                    <h3>Recent Orders</h3>
+                    <p>You have 2 recent orders</p>
+                    <a href="/dashboard/orders">View All</a>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <div class="card-icon"><i class="fas fa-star"></i></div>
+                <div class="card-content">
+                    <h3>My Reviews</h3>
+                    <p>You've written 5 reviews</p>
+                    <a href="/dashboard/reviews">View All</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-orders">
+            <h2>Recent Orders</h2>
+            <table class="orders-table">
+                <thead>
+                    <tr>
+                        <th>Order #</th>
+                        <th>Date</th>
+                        <th>Items</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#12345</td>
+                        <td>Apr 18, 2025</td>
+                        <td>3 items</td>
+                        <td>$24.97</td>
+                        <td><span class="status delivered">Delivered</span></td>
+                        <td><a href="/dashboard/orders/12345" class="btn btn-small">View</a></td>
+                    </tr>
+                    <!-- More orders... -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

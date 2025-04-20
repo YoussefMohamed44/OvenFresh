@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<section class="checkout-process">
+    <div class="checkout-steps">
+        <div class="step active">1. Shipping</div>
+        <div class="step">2. Payment</div>
+        <div class="step">3. Review</div>
+    </div>
+
+    <form class="checkout-form">
+        <!-- Shipping Information -->
+        <div class="form-section active" id="shipping-info">
+            <h2>Shipping Information</h2>
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Address</label>
+                <input type="text" required>
+            </div>
+
+            <!-- More address fields... -->
+
+            <div class="form-group">
+                <label>Delivery Instructions (Optional)</label>
+                <textarea></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary next-step">Continue to Payment</button>
+        </div>
+
+        <!-- Payment Information -->
+        <div class="form-section" id="payment-info">
+            <h2>Payment Method</h2>
+
+            <div class="payment-methods">
+                <div class="payment-method active">
+                    <input type="radio" name="payment" id="credit-card" checked>
+                    <label for="credit-card">Credit Card</label>
+                </div>
+
+                <div class="payment-method">
+                    <input type="radio" name="payment" id="paypal">
+                    <label for="paypal">PayPal</label>
+                </div>
+            </div>
+
+            <div class="credit-card-form">
+                <div class="form-group">
+                    <label>Card Number</label>
+                    <input type="text" placeholder="1234 5678 9012 3456">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Expiration Date</label>
+                        <input type="text" placeholder="MM/YY">
+                    </div>
+
+                    <div class="form-group">
+                        <label>CVV</label>
+                        <input type="text" placeholder="123">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Name on Card</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="checkout-nav">
+                <button type="button" class="btn btn-outline prev-step">Back</button>
+                <button type="button" class="btn btn-primary next-step">Review Order</button>
+            </div>
+        </div>
+
+        <!-- Order Review -->
+        <div class="form-section" id="order-review">
+            <h2>Review Your Order</h2>
+
+            <div class="order-summary">
+                <div class="order-items">
+                    <!-- List of items... -->
+                </div>
+
+                <div class="order-totals">
+                    <!-- Order totals... -->
+                </div>
+            </div>
+
+            <div class="checkout-nav">
+                <button type="button" class="btn btn-outline prev-step">Back</button>
+                <button type="submit" class="btn btn-primary">Place Order</button>
+            </div>
+        </div>
+    </form>
+</section>
