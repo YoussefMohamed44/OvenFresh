@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Matrials\\MVC Project\\OvenFresh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\data\\bakerydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\data\\bakerydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\user\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\user\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\review\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\review\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\order\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\order\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\cart\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\cart\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|e:\\matrials\\mvc project\\ovenfresh\\mvc project\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordResetToken.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\User\\PasswordResetToken.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\User\\PasswordResetToken.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\User\\PasswordResetToken.cs",
+              "RelativeToolTip": "MVC Project\\Models\\User\\PasswordResetToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:28:45.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Order\\OrderItem.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\Order\\OrderItem.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Order\\OrderItem.cs",
+              "RelativeToolTip": "MVC Project\\Models\\Order\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:28:39.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Cart\\CartItem.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\Cart\\CartItem.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Cart\\CartItem.cs",
+              "RelativeToolTip": "MVC Project\\Models\\Cart\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:28:37.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BakeryDbContext.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Data\\BakeryDbContext.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Data\\BakeryDbContext.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Data\\BakeryDbContext.cs",
+              "RelativeToolTip": "MVC Project\\Data\\BakeryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:25:02.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Cart\\Cart.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\Cart\\Cart.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Cart\\Cart.cs",
+              "RelativeToolTip": "MVC Project\\Models\\Cart\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:24:12.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Order\\Order.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\Order\\Order.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Order\\Order.cs",
+              "RelativeToolTip": "MVC Project\\Models\\Order\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:24:09.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Product\\Product.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\Product\\Product.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Product\\Product.cs",
+              "RelativeToolTip": "MVC Project\\Models\\Product\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:24:06.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Review\\Review.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\Review\\Review.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\Review\\Review.cs",
+              "RelativeToolTip": "MVC Project\\Models\\Review\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:24:04.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\User\\User.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\User\\User.cs",
+              "ToolTip": "E:\\Matrials\\MVC Project\\OvenFresh\\MVC Project\\Models\\User\\User.cs",
+              "RelativeToolTip": "MVC Project\\Models\\User\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:20:03.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -32,3 +32,15 @@ E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\refint\MVC Project.dll
 E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.pdb
 E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\MVC Project.genruntimeconfig.cache
 E:\Matrials\MVC Project\MVC Project\obj\Debug\net8.0\ref\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.csproj.AssemblyReference.cache
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfoInputs.cache
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfo.cs
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.csproj.CoreCompileInputs.cache
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.MvcApplicationPartsAssemblyInfo.cache
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cache
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cs
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.sourcelink.json
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\refint\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.pdb
