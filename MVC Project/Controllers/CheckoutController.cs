@@ -2,7 +2,7 @@
 
 namespace MVC_Project.Controllers
 {
-    public class CheckoutController1 : Controller
+    public class CheckoutController : Controller
     {
         public IActionResult Index()
         {

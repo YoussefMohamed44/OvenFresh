@@ -2,7 +2,7 @@
 
 namespace MVC_Project.Controllers
 {
-    public class ProductController1 : Controller
+    public class ProductController : Controller
     {
         public IActionResult Index()
         {

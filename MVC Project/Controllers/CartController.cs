@@ -2,9 +2,9 @@
 
 namespace MVC_Project.Controllers
 {
-    public class CartController1 : Controller
+    public class CartController : Controller
     {
-        public IActionResult Dipsplay()
+        public IActionResult Index()
         {
             return View("index");
         }
