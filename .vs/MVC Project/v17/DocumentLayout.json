@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,19 +29,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\7akee\\Source\\Repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "MVC Project\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\7akee\\Source\\Repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\DashboardController.cs*",
-              "RelativeToolTip": "MVC Project\\Controllers\\DashboardController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:41:42.822Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -55,28 +38,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:29:50.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\7akee\\Source\\Repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "MVC Project\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\7akee\\Source\\Repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\ProductController.cs*",
-              "RelativeToolTip": "MVC Project\\Controllers\\ProductController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:40:49.308Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:28:07.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\7akee\\Source\\Repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "MVC Project\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\7akee\\Source\\Repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\CartController.cs",
-              "RelativeToolTip": "MVC Project\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:40:02.494Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MVC Project\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MVC Project\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-22T17:22:11.547Z",
               "EditorCaption": ""
             },
             {
@@ -87,22 +83,9 @@
               "RelativeDocumentMoniker": "MVC Project\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MVC Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T16:17:32.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC Project\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "MVC Project\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T16:13:53.317Z",
+              "WhenOpened": "2025-04-22T17:21:37.746Z",
               "EditorCaption": ""
             }
           ]

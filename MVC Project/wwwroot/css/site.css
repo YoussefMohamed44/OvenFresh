@@ -8,10 +8,6 @@ html {
     }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
 html {
     position: relative;
     min-height: 100%;
@@ -19,4 +15,266 @@ html {
 
 body {
     margin-bottom: 60px;
+}
+
+.autoSuggest {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 27%;
+    margin: 10px;
+    border-radius: 4px;
+    z-index: 1;
+    margin-top: 5px;
+    display: none;
+}
+
+    .autoSuggest input[type="button"] {
+        width: 100%;
+        padding: 4px 20px;
+        font-size: 14px;
+        color: #333;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-size: 15px;
+    }
+
+        .autoSuggest input[type="button"]:hover,
+        .autoSuggest input[type="button"]:focus {
+            background-color: #f5f5f5;
+        }
+
+    .autoSuggest.show-border {
+        border: 1px solid #ccc;
+    }
+
+
+.button_submit {
+    margin-right: 10px;
+}
+
+.button_actions {
+    margin-right: 8px;
+}
+
+.button_actions2 {
+    margin-left: 10px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+}
+
+.no-link-style {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-actions {
+    margin-top: 10px;
+}
+
+.action-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.actionbutton {
+    margin-right: 10px;
+}
+
+.link-unstyled {
+    text-decoration: none;
+    color: #666;
+}
+
+    .link-unstyled:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+/*HOME PAGE*/
+
+.carousel-inner > div {
+    max-height: 400px;
+}
+
+    .carousel-inner > div img {
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+
+.about-us {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.siteName, .categoryName {
+    color: #2C3E50;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.siteDesc {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@keyframes blink {
+    50% {
+        opacity: 0
+    }
+
+    80% {
+        color: #1D9463;
+        opacity: .5
+    }
+}
+
+.memberTitle {
+    animation: blink 1s linear infinite;
+    color: #333;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+.justify-center {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.card-format {
+    transition: all 0.3s;
+}
+
+    .card-format:hover {
+        transform: scale(1.05);
+    }
+
+.btn-primary:hover {
+    background-color: #1D9463;
+    border-color: #1D9463;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+    .banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.values {
+    color: #2C3E50;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    color: #2C3E50;
+}
+
+.card-subtitle {
+    color: #1D9463;
+}
+
+.image-container .image-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    height: 100%;
+    width: auto;
+}
+
+
+.image-display {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.product-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .product-image img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+.details {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.prodDetails {
+    color: #2C3E50;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.prodCat {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #1D9463;
+}
+
+.prodDescription {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+span {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
 }
