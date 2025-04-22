@@ -1,0 +1,8 @@
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\1c01e2f8-919e-43f0-abb5-2019aabe348b_tiramisu.jpg
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\25ff1221-7daa-400e-a8f3-b351d4309d4b_macarons1.jpg
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\3519e8af-cfe8-48db-ad09-5e2226822de8_blueberrymuffin.jpg
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\78b65119-f06d-4c97-960b-8fe62cb28c90_carrotcake.jpg
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\81622a94-4bb5-43e0-a882-794a5bc2b17f_donuts.jpg
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\9621ea8a-72cc-409a-85ac-e5b2838f68e8_cookies.jpg
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\b4ee559f-17ec-42ba-ac03-c1a80f84706f_applepie.jpg
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\wwwroot\uploads\dec62e56-82c7-4f90-9ede-4fb87a00ea84_eclairs.jpg

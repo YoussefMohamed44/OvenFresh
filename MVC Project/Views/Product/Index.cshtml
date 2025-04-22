@@ -1,3 +1,182 @@
 ﻿@{
     ViewData["Title"] = "Products";
 }
+
+<script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+        // Select all add-to-cart buttons
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+        // Add click event listener to each button
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', function(event) {
+                // Prevent the default action of the button if it's a form submission
+                event.preventDefault();
+
+                // Get the product name and price from data attributes
+                const productName = this.getAttribute('data-product-name');
+                const productPrice = this.getAttribute('data-product-price');
+
+                // Show an alert
+                alert(`Added ${productName} to your cart for ${productPrice}!`);
+
+                // Here you would typically send this data to your server or update a local cart
+                // For example:
+                // addToCart(productName, productPrice);
+            });
+        });
+    });
+
+</script>
+
+<style>
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+        color: rgb(44, 62, 80); /* Text color for body */
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .page-title {
+        text-align: center;
+        color: rgb(44, 62, 80); /* Main color for the title */
+        margin-bottom: 30px;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .product-item {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .product-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(44, 62, 80, 0.2); /* Subtle shadow with main color on hover */
+            border-color: rgb(44, 62, 80); /* Border color on hover */
+        }
+
+    .product-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .product-name {
+        font-size: 18px;
+        color: rgb(44, 62, 80); /* Main color for product names */
+        margin: 10px 0;
+    }
+
+    .product-price {
+        font-size: 16px;
+        color: rgb(44, 62, 80); /* Keeping the original color for price */
+        font-weight: bold;
+    }
+
+    /* Add this for a button or link if you want to include one */
+    .add-to-cart {
+        background-color: rgb(44, 62, 80);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+        .add-to-cart:hover {
+            background-color: rgba(44, 62, 80, 0.8);
+        }
+
+</style>
+
+    <div class="container">
+        <h1 class="page-title">Our Bakery Products</h1>
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+            <img src="../uploads/cinnamonrolls.jpg" alt="Product 1" class="product-image">
+                <h2 class="product-name">Cinammon Roll</h2>
+                <p class="product-price">$23.99</p>
+            <button class="add-to-cart" data-product-name="Cinammon Roll" data-product-price="$23.99">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+            <img src="../uploads/BlueberryMuffin.jpg" alt="Product 2" class="product-image">
+                <h2 class="product-name">Blueberry Muffin</h2>
+                <p class="product-price">$21.99</p>
+            <button class="add-to-cart" data-product-name="Blueberry Muffin" data-product-price="$21.99">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-item">
+            <img src="../uploads/ApplePie.jpg" alt="Product 3" class="product-image">
+                <h2 class="product-name">Apple Pie</h2>
+                <p class="product-price">$27.99</p>
+            <button class="add-to-cart" data-product-name="Apple Pie" data-product-price="$27.99">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-item">
+            <img src="../uploads/Macarons.jpg" alt="Product 4" class="product-image">
+                <h2 class="product-name">Macarons</h2>
+                <p class="product-price">$17.99</p>
+            <button class="add-to-cart" data-product-name="Macarons" data-product-price="$17.99">Add to Cart</button>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-item">
+            <img src="../uploads/Donuts.jpg" alt="Product 5" class="product-image">
+                <h2 class="product-name">Donuts</h2>
+                <p class="product-price">$5.99</p>
+            <button class="add-to-cart" data-product-name="Donuts" data-product-price="$5.99">Add to Cart</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-item">
+            <img src="../uploads/Cookies.jpg" alt="Product 6" class="product-image">
+                <h2 class="product-name">Cookies</h2>
+                <p class="product-price">$11.99</p>
+            <button class="add-to-cart" data-product-name="Cookies" data-product-price="$11.99">Add to Cart</button>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-item">
+            <img src="../uploads/CarrptCake.jpg" alt="Product 7" class="product-image">
+                <h2 class="product-name">Carrot Cake</h2>
+                <p class="product-price">$6.99</p>
+            <button class="add-to-cart" data-product-name="Carrot Cake" data-product-price="$6.99">Add to Cart</button>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-item">
+            <img src="../uploads/Tiramisu.jpg" alt="Product 8" class="product-image">
+                <h2 class="product-name">Tiramisu</h2>
+                <p class="product-price">$14.99</p>
+            <button class="add-to-cart" data-product-name="Tiramisu" data-product-price="$14.99">Add to Cart</button>
+            </div>
+            <!-- Product 9 -->
+            <div class="product-item">
+            <img src="../uploads/Eclairs.jpg" alt="Product 9" class="product-image">
+                <h2 class="product-name">Eclairs</h2>
+                <p class="product-price">$19.99</p>
+            <button class="add-to-cart" data-product-name="Eclairs" data-product-price="$19.99">Add to Cart</button>
+            </div>
+        </div>
+    </div>
