@@ -44,3 +44,15 @@ E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.sourc
 E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.dll
 E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\refint\MVC Project.dll
 E:\Matrials\MVC Project\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.pdb
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.csproj.AssemblyReference.cache
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfoInputs.cache
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfo.cs
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.csproj.CoreCompileInputs.cache
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cache
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cs
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.sourcelink.json
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.dll
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\refint\MVC Project.dll
+C:\Users\7akee\Source\Repos\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.pdb
