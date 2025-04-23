@@ -1,3 +1,45 @@
-﻿@{
-    ViewData["Title"] = "Cart";
-}
+﻿<!--replaced with own paypal client id-->
+<script src="https://www.paypal.com/sdk/js?client-id=AXiwmPS17nETGML3vSh4eSbR6iQC7y4cenyiMqYycsyhdAkktAriU1bjWU6LtVjgMdjr4ivDkXY4HBGX">
+</script>
+
+<!--CART INDEX-->
+<!--free card layout found here: https://mdbootstrap.com/docs/standard/extended/shopping-carts/ and was modified to fit requirements-->
+<section class="h-100 h-custom" style="background-color: #eee;">
+    <div class="container p-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12">
+                <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                    <div class="card-body p-0">
+                        <div class="row g-0">
+                            <div class="col-lg-8">
+                                <div class="p-5 pb-1 pl-4 pr-5">
+                                    <p>
+                                        <a asp-controller="Product" asp-action="Index" class="text-body link-unstyled">
+                                            <i class="fas fa-long-arrow-alt-left me-2"></i>Continue shopping
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="p-5">
+                                    <div class="d-flex justify-content-between align-items-center mb-5">
+                                        <h4 class="fw-bold mb-0 text-black">Shopping Cart</h4>
+                                        <a href="@Url.Action("ClearCart", "Cart")" class="text-muted link-unstyled">Clear Cart</a>
+                                    </div>
+                                    <hr class="my-4">
+                                    <!-- Cart items -->
+
+                                    <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                        <div class="col-12">
+                                            <p>Your shopping cart is empty.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

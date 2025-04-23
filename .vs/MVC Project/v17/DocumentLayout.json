@@ -1,49 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\",
+  "WorkspaceRootPath": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\migrations\\bakerydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\migrations\\bakerydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\migrations\\20250422181544_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\migrations\\20250422181544_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh-online-bakery\\mvc project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\mostafa\\source\\ovenfresh-online-bakery\\mvc project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -54,158 +70,204 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC Project\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "MVC Project\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAgwLIAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:41:27.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "MVC Project\\Views\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAIAwwEEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T19:49:13.165Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Program.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Program.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Program.cs",
+              "RelativeToolTip": "MVC Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:21:01.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\appsettings.json",
+              "RelativeDocumentMoniker": "MVC Project\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\appsettings.json",
+              "RelativeToolTip": "MVC Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T08:20:56.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BakeryDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Migrations\\BakeryDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Migrations\\BakeryDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Migrations\\BakeryDbContextModelSnapshot.cs",
+              "RelativeToolTip": "MVC Project\\Migrations\\BakeryDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:18:57.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250422181544_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "RelativeToolTip": "MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:18:56.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Cart\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAcGZmZmYSwLIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T20:41:27.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAIAwwEEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:49:13.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "MVC Project\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAQMzMzMzMrwBgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-22T19:27:10.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MVC Project\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:30:45.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "MVC Project\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAALAAAAAAAAAAAAAgwMAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T19:46:52.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "MVC Project\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "MVC Project\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-22T19:27:49.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "MVC Project\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAgwL8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T19:25:27.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "MVC Project\\Views\\Account\\ResetPassword.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAIAwwBkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T19:51:19.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MVC Project\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MVC Project\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-22T19:30:01.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Models\\Cart\\Cart.cs",
-              "RelativeDocumentMoniker": "MVC Project\\Models\\Cart\\Cart.cs",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Models\\Cart\\Cart.cs",
-              "RelativeToolTip": "MVC Project\\Models\\Cart\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:25:32.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T20:30:45.266Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAgwMAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:46:52.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MVC Project\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MVC Project\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-22T19:27:49.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAgwL8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:25:27.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:51:19.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MVC Project\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MVC Project\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T19:30:01.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Models\\Cart\\Cart.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Models\\Cart\\Cart.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Models\\Cart\\Cart.cs",
+              "RelativeToolTip": "MVC Project\\Models\\Cart\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:25:32.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MVC Project\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh-online-bakery\\MVC Project\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\source\\OvenFresh-online-bakery\\MVC Project\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MVC Project\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:07:33.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T19:07:33.914Z"
             }
           ]
         }
