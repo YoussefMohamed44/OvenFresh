@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\migrations\\20250422181544_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\source\\repos\\ovenfresh\\mvc project\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,31 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250422181544_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
-              "RelativeDocumentMoniker": "MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
-              "RelativeToolTip": "MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T08:18:56.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "MVC Project\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAG4AAAAAcGZmZmYSwLIAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAcGZmZmYSwFQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:41:27.495Z"
+              "WhenOpened": "2025-04-22T20:41:27.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\ForgotPassword.cshtml",
@@ -130,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\ResetPassword.cshtml",
@@ -143,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Cart\\Index.cshtml",
@@ -156,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MVC Project\\wwwroot\\css\\site.css",
@@ -169,7 +158,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T20:30:45.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250422181544_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "RelativeToolTip": "MVC Project\\Migrations\\20250422181544_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:18:56.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BakeryDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Migrations\\BakeryDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "MVC Project\\Migrations\\BakeryDbContextModelSnapshot.cs",
@@ -181,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\appsettings.json",
               "RelativeDocumentMoniker": "MVC Project\\appsettings.json",
@@ -193,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Program.cs",
               "RelativeDocumentMoniker": "MVC Project\\Program.cs",
@@ -206,19 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:30:45.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\Register.cshtml",
@@ -230,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\7akee\\source\\repos\\OvenFresh\\MVC Project\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Account\\Login.cshtml",
