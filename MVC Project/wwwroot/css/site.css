@@ -1,3 +1,27 @@
+/*FooterEdits*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Optional: make footer fill space nicely */
+footer {
+    flex-shrink: 0;
+}
+
+/*EndFooterEdits*/
+
 html {
     font-size: 14px;
 }

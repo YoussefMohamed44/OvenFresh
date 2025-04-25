@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\onedrive\\desktop\\ovenfresh\\mvc project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\onedrive\\desktop\\ovenfresh\\mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\onedrive\\desktop\\ovenfresh\\mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|c:\\users\\7akee\\onedrive\\desktop\\ovenfresh\\mvc project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{939FEBFD-5541-4C88-BF81-914E16235BA9}|MVC Project\\MVC Project.csproj|solutionrelative:mvc project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -39,12 +51,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T22:41:43.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MVC Project\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MVC Project\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T22:39:11.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T22:28:50.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "MVC Project\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAD8AAACPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\7akee\\OneDrive\\Desktop\\OvenFresh\\MVC Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC Project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-25T12:46:57.489Z",
               "EditorCaption": ""
