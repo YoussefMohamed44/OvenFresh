@@ -1,7 +1,36 @@
-﻿<!--replaced with own paypal client id-->
+﻿@{
+    ViewData["Title"] = "Cart";
+}
+
+<!--replaced with own paypal client id-->
 <script src="https://www.paypal.com/sdk/js?client-id=AXiwmPS17nETGML3vSh4eSbR6iQC7y4cenyiMqYycsyhdAkktAriU1bjWU6LtVjgMdjr4ivDkXY4HBGX">
 </script>
 
+  <style>
+        .paypal-button {
+            display: inline-block;
+            background-color: #ffc439;
+            color: #111;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+            font-family: Arial, sans-serif;
+        }
+
+        .paypal-button:hover {
+            background-color: #ffb347;
+        }
+
+        .paypal-button i {
+            margin-right: 8px;
+        }
+  </style>
 <!--CART INDEX-->
 <!--free card layout found here: https://mdbootstrap.com/docs/standard/extended/shopping-carts/ and was modified to fit requirements-->
 <section class="h-100 h-custom" style="background-color: #eee;">
@@ -32,7 +61,10 @@
                                             <p>Your shopping cart is empty.</p>
                                         </div>
                                     </div>
-
+                                    
+                                    <a href="https://www.paypal.me/hakeem4reall" class="paypal-button">
+                                        <i class="fab fa-paypal"></i> Pay with PayPal
+                                    </a>
                                 </div>
                             </div>
                         </div>

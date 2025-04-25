@@ -1,0 +1,271 @@
+﻿@{
+    ViewData["Title"] = "Reviews";
+}
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+        header h1 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #666;
+        }
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .review-form {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+    button {
+        background-color: rgb(44, 62, 80);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+    }
+
+        button:hover {
+            background-color: rgb(44, 62, 80);
+        }
+
+    .reviews-list {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    #reviewList {
+        display: grid;
+        gap: 20px;
+    }
+
+    .review-card {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 6px;
+        background-color: #f9f9f9;
+    }
+
+        .review-card h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .review-card .rating {
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+
+        .review-card .date {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .review-card p {
+            margin: 0;
+            line-height: 1.5;
+            color: #444;
+        }
+    }
+
+    .review-form, .reviews-list {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+</style>
+
+
+<script>
+
+        // Mock Data for Initial Reviews
+    let reviews = [
+        { id: 1, name: "Sarah Johnson", rating: 5, comment: "Absolutely love their chocolate fudge cake! It was moist, rich, and delivered on time. Will definitely order again!", date: "2023-10-15" },
+        { id: 2, name: "Michael Brown", rating: 4, comment: "The croissants are amazing and flaky. Only downside was the packaging could be better, but the taste made up for it.", date: "2023-10-10" },
+        { id: 3, name: "Emily Davis", rating: 5, comment: "Ordered a dozen cupcakes for a birthday party, and everyone loved them. Beautifully decorated and super fresh!", date: "2023-10-05" },
+        { id: 4, name: "James Wilson", rating: 3, comment: "The bread was good, but I felt the price was a bit high for the portion size. Delivery was quick though.", date: "2023-09-28" }
+    ];
+
+    // Load data from localStorage if available
+    function loadData() {
+        const savedReviews = localStorage.getItem('reviews');
+        if (savedReviews) {
+            reviews = JSON.parse(savedReviews);
+        }
+    }
+
+    // Save data to localStorage
+    function saveData() {
+        localStorage.setItem('reviews', JSON.stringify(reviews));
+    }
+
+    // Render Reviews
+    function renderReviews() {
+        const reviewList = document.getElementById('reviewList');
+        reviewList.innerHTML = '';
+        reviews.forEach(review => {
+            const reviewCard = document.createElement('div');
+            reviewCard.classList.add('review-card');
+            reviewCard.innerHTML = `
+                <h3>${review.name}</h3>
+                <div class="rating">${getStarRating(review.rating)}</div>
+                <div class="date">Posted on: ${review.date}</div>
+                <p>${review.comment}</p>
+            `;
+            reviewList.appendChild(reviewCard);
+        });
+    }
+
+    // Generate Star Rating HTML
+    function getStarRating(rating) {
+        let stars = '';
+        for (let i = 1; i <= 5; i++) {
+            stars += i <= rating ? '★' : '☆';
+        }
+        return stars;
+    }
+
+    // Handle Form Submission
+    document.getElementById('reviewForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const nameInput = document.getElementById('customerName');
+        const ratingInput = document.getElementById('rating');
+        const commentInput = document.getElementById('comment');
+
+        const name = nameInput.value.trim();
+        const rating = parseInt(ratingInput.value);
+        const comment = commentInput.value.trim();
+
+        if (name && rating && comment) {
+            // Get current date in YYYY-MM-DD format
+            const currentDate = new Date().toISOString().split('T')[0];
+            const newId = reviews.length > 0 ? Math.max(...reviews.map(r => r.id)) + 1 : 1;
+            const newReview = {
+                id: newId,
+                name: name,
+                rating: rating,
+                comment: comment,
+                date: currentDate
+            };
+            reviews.unshift(newReview); // Add new review to the top
+            nameInput.value = '';
+            ratingInput.value = '5';
+            commentInput.value = '';
+            saveData();
+            renderReviews();
+            alert('Thank you for your review!');
+        } else {
+            alert('Please fill in all fields.');
+        }
+    });
+
+    // Initialize the page
+    function init() {
+        loadData();
+        renderReviews();
+    }
+
+    window.onload = init;
+
+</script>
+
+
+<div class="container">
+    <h1>Customer Reviews</h1>
+    <p>Read what our customers have to say about our bakery!</p>
+
+    <section class="review-form">
+        <h2>Leave a Review</h2>
+        <form id="reviewForm">
+            <div class="form-group">
+                <label for="customerName">Your Name:</label>
+                <input type="text" id="customerName" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating:</label>
+                <select id="rating" required>
+                    <option value="5">5 Stars ★★★★★</option>
+                    <option value="4">4 Stars ★★★★☆</option>
+                    <option value="3">3 Stars ★★★☆☆</option>
+                    <option value="2">2 Stars ★★☆☆☆</option>
+                    <option value="1">1 Star ★☆☆☆☆</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Your Review:</label>
+                <textarea id="comment" placeholder="Share your experience..." rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+
+    <section class="reviews-list">
+        <h2>Recent Reviews</h2>
+        <div id="reviewList"></div>
+    </section>
+</div>

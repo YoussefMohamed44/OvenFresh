@@ -279,3 +279,18 @@ span {
     color: #666;
 }
 
+/* Trial */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .review-form, .reviews-list {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}

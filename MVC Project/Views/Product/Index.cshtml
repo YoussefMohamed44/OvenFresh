@@ -106,13 +106,59 @@
         transition: background-color 0.3s ease;
     }
 
-        .add-to-cart:hover {
+    .add-to-cart:hover {
             background-color: rgba(44, 62, 80, 0.8);
+    }
+
+    .SearchBarContainer{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .SearchBar{
+        border-radius: 10px;
+        border: 3px solid rgba(44, 62, 80, 0.8);
+        background-color: white;
+        color: black;
+        padding-left:20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .circle-button {
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        border: none;
+        background-color: white;
+        border:3px solid rgba(44, 62, 80, 0.8);
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+        margin-left: 5px;
+    }
+
+        .circle-button:hover {
+            background-color: rgba(44, 62, 80, 0.8);
+            border-color:white;
         }
 
 </style>
 
-    <div class="container">
+
+
+<div class="SearchBarContainer">
+    
+    <input class ="SearchBar" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..">
+    <button class="circle-button"><i class="fas fa-magnifying-glass"></i></button>
+
+</div>
+
+<div class="container">
         <h1 class="page-title">Our Bakery Products</h1>
         <div class="products-grid">
             <!-- Product 1 -->

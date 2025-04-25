@@ -4,24 +4,14 @@ namespace MVC_Project.Controllers
 {
     public class DashboardController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Admin()
         {
-            return View("Index");
+            return View("Admin");
         }
 
-        public IActionResult Addresses()
+        public IActionResult User()
         {
-            return View("Addresses");
-        }
-
-        public IActionResult Orders()
-        {
-            return View("Orders");
-        }
-
-        public IActionResult Reviews()
-        {
-            return View("Reviews");
+            return View("User");
         }
 
     }

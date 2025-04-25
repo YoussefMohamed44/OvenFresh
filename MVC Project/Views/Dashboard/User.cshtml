@@ -1,0 +1,236 @@
+﻿@{
+    ViewData["Title"] = "User Dashboard";
+}
+
+<script>
+
+    let orders = [
+            { id: 1, product: "Chocolate Cake", date: "2023-10-01", status: "Delivered", rating: 0 },
+            { id: 2, product: "Croissant", date: "2023-10-05", status: "Delivered", rating: 0 }
+        ];
+
+        let products = [
+            { id: 1, name: "Chocolate Cake", price: 25.99 },
+            { id: 2, name: "Croissant", price: 3.99 }
+        ];
+
+        // Load data from localStorage if available
+        function loadData() {
+            const savedOrders = localStorage.getItem('orders');
+            const savedProducts = localStorage.getItem('products');
+            if (savedOrders) orders = JSON.parse(savedOrders);
+            if (savedProducts) products = JSON.parse(savedProducts);
+        }
+
+        // Save data to localStorage
+        function saveData() {
+            localStorage.setItem('orders', JSON.stringify(orders));
+            localStorage.setItem('products', JSON.stringify(products));
+        }
+
+        // Render Orders for User Dashboard
+        function renderOrders() {
+            const orderList = document.getElementById('orderList');
+            orderList.innerHTML = '';
+            orders.forEach(order => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${order.id}</td>
+                    <td>${order.product}</td>
+                    <td>${order.date}</td>
+                    <td>${order.status}</td>
+                    <td>${getStarRating(order.rating, order.id)}</td>
+                `;
+                orderList.appendChild(tr);
+            });
+        }
+
+        // Generate Star Rating HTML
+        function getStarRating(rating, orderId) {
+            let stars = '';
+            for (let i = 1; i <= 5; i++) {
+                stars += `<span class="rating" onclick="rateOrder(${orderId}, ${i})">${i <= rating ? '★' : '☆'}</span>`;
+            }
+            return stars;
+        }
+
+        // Rate Order
+        function rateOrder(orderId, rating) {
+            const order = orders.find(o => o.id === orderId);
+            if (order) {
+                order.rating = rating;
+                saveData();
+                renderOrders();
+            }
+        }
+
+        // Render Products for Admin Dashboard
+        function renderProducts() {
+            const productList = document.getElementById('productList');
+            productList.innerHTML = '';
+            products.forEach(product => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${product.id}</td>
+                    <td>${product.name}</td>
+                    <td>$${product.price.toFixed(2)}</td>
+                    <td><button class="delete-btn" onclick="deleteProduct(${product.id})">Delete</button></td>
+                `;
+                productList.appendChild(tr);
+            });
+        }
+
+        // Add New Product
+        function addProduct() {
+            const nameInput = document.getElementById('productName');
+            const priceInput = document.getElementById('productPrice');
+            const name = nameInput.value.trim();
+            const price = parseFloat(priceInput.value);
+
+            if (name && !isNaN(price) && price > 0) {
+                const newId = products.length > 0 ? Math.max(...products.map(p => p.id)) + 1 : 1;
+                products.push({ id: newId, name, price });
+                nameInput.value = '';
+                priceInput.value = '';
+                saveData();
+                renderProducts();
+            } else {
+                alert('Please enter a valid product name and price.');
+            }
+        }
+
+        // Delete Product
+        function deleteProduct(id) {
+            if (confirm('Are you sure you want to delete this product?')) {
+                products = products.filter(p => p.id !== id);
+                saveData();
+                renderProducts();
+            }
+        }
+
+        // Toggle between User and Admin Dashboard
+        function toggleDashboard() {
+            const userDash = document.getElementById('userDashboard');
+            const adminDash = document.getElementById('adminDashboard');
+            if (userDash.style.display === 'none') {
+                userDash.style.display = 'block';
+                adminDash.style.display = 'none';
+            } else {
+                userDash.style.display = 'none';
+                adminDash.style.display = 'block';
+            }
+        }
+
+        // Initialize Dashboards
+        function init() {
+            loadData();
+            renderOrders();
+            renderProducts();
+        }
+
+        window.onload = init;
+
+</script>
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f5f5f5;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .dashboard {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+
+    h1, h2 {
+        color: #333;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .rating {
+        color: #ffd700;
+        cursor: pointer;
+    }
+
+    .form-group {
+        margin: 10px 0;
+    }
+
+    input, button {
+        padding: 8px;
+        margin: 5px 0;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    .delete-btn {
+        background-color: #f44336;
+    }
+
+        .delete-btn:hover {
+            background-color: #da190b;
+        }
+
+    .toggle-btn {
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #2196F3;
+    }
+
+        .toggle-btn:hover {
+            background-color: #1976D2;
+        }
+
+</style>
+
+    <div id="User Dashboard" class="dashboard">
+        <h1>Welcome, User!</h1>
+        <h2>Your Orders</h2>
+        <table id="ordersTable">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Product</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody id="orderList"></tbody>
+        </table>
+    </div>
