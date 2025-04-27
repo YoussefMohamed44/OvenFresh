@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<Product>
+@{
     ViewData["Title"] = "Products";
 }
 
@@ -159,70 +160,36 @@
 </div>
 
 <div class="container">
-        <h1 class="page-title">Our Bakery Products</h1>
-        <div class="products-grid">
-            <!-- Product 1 -->
+    <h1 class="page-title">Our Bakery Products</h1>
+    <div class="products-grid">
+        <!-- REPLACE HARDCODED PRODUCTS WITH DYNAMIC ONES -->
+        @foreach (var product in Model)
+        {
             <div class="product-item">
-            <img src="../uploads/cinnamonrolls.jpg" alt="Product 1" class="product-image">
-                <h2 class="product-name">Cinammon Roll</h2>
-                <p class="product-price">$23.99</p>
-            <button class="add-to-cart" data-product-name="Cinammon Roll" data-product-price="$23.99">Add to Cart</button>
+                <!-- Link product image to Details page -->
+                <a asp-action="Details" asp-route-id="@product.ProductId">
+                    <img src="@product.ImageUrl" alt="@product.Name" class="product-image">
+                </a>
+                <h2 class="product-name">
+                    <a asp-action="Details" asp-route-id="@product.ProductId" style="color: inherit; text-decoration: none;">
+                        @product.Name
+                    </a>
+                </h2>
+                <p class="product-price">$@product.Price.ToString("0.00")</p>
+                <button class="add-to-cart"
+                        data-product-id="@product.ProductId"
+                        data-product-name="@product.Name"
+                        data-product-price="@product.Price">
+                    Add to Cart
+                </button>
+                <!-- Add review count link -->
+                <div class="product-reviews" style="margin-top: 10px;">
+                    <a asp-controller="Reviews" asp-action="Index" asp-route-productId="@product.ProductId"
+                       style="color: rgb(44, 62, 80); font-size: 0.9em;">
+                        @(product.Reviews?.Count ?? 0) reviews
+                    </a>
+                </div>
             </div>
-            <!-- Product 2 -->
-            <div class="product-item">
-            <img src="../uploads/BlueberryMuffin.jpg" alt="Product 2" class="product-image">
-                <h2 class="product-name">Blueberry Muffin</h2>
-                <p class="product-price">$21.99</p>
-            <button class="add-to-cart" data-product-name="Blueberry Muffin" data-product-price="$21.99">Add to Cart</button>
-            </div>
-            <!-- Product 3 -->
-            <div class="product-item">
-            <img src="../uploads/ApplePie.jpg" alt="Product 3" class="product-image">
-                <h2 class="product-name">Apple Pie</h2>
-                <p class="product-price">$27.99</p>
-            <button class="add-to-cart" data-product-name="Apple Pie" data-product-price="$27.99">Add to Cart</button>
-            </div>
-            <!-- Product 4 -->
-            <div class="product-item">
-            <img src="../uploads/Macarons.jpg" alt="Product 4" class="product-image">
-                <h2 class="product-name">Macarons</h2>
-                <p class="product-price">$17.99</p>
-            <button class="add-to-cart" data-product-name="Macarons" data-product-price="$17.99">Add to Cart</button>
-            </div>
-            <!-- Product 5 -->
-            <div class="product-item">
-            <img src="../uploads/Donuts.jpg" alt="Product 5" class="product-image">
-                <h2 class="product-name">Donuts</h2>
-                <p class="product-price">$5.99</p>
-            <button class="add-to-cart" data-product-name="Donuts" data-product-price="$5.99">Add to Cart</button>
-            </div>
-            <!-- Product 6 -->
-            <div class="product-item">
-            <img src="../uploads/Cookies.jpg" alt="Product 6" class="product-image">
-                <h2 class="product-name">Cookies</h2>
-                <p class="product-price">$11.99</p>
-            <button class="add-to-cart" data-product-name="Cookies" data-product-price="$11.99">Add to Cart</button>
-            </div>
-            <!-- Product 7 -->
-            <div class="product-item">
-            <img src="../uploads/CarrptCake.jpg" alt="Product 7" class="product-image">
-                <h2 class="product-name">Carrot Cake</h2>
-                <p class="product-price">$6.99</p>
-            <button class="add-to-cart" data-product-name="Carrot Cake" data-product-price="$6.99">Add to Cart</button>
-            </div>
-            <!-- Product 8 -->
-            <div class="product-item">
-            <img src="../uploads/Tiramisu.jpg" alt="Product 8" class="product-image">
-                <h2 class="product-name">Tiramisu</h2>
-                <p class="product-price">$14.99</p>
-            <button class="add-to-cart" data-product-name="Tiramisu" data-product-price="$14.99">Add to Cart</button>
-            </div>
-            <!-- Product 9 -->
-            <div class="product-item">
-            <img src="../uploads/Eclairs.jpg" alt="Product 9" class="product-image">
-                <h2 class="product-name">Eclairs</h2>
-                <p class="product-price">$19.99</p>
-            <button class="add-to-cart" data-product-name="Eclairs" data-product-price="$19.99">Add to Cart</button>
-            </div>
-        </div>
+        }
     </div>
+</div>

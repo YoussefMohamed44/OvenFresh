@@ -1,5 +1,7 @@
-﻿@{
+﻿@model ReviewViewModel
+@{
     ViewData["Title"] = "Reviews";
+
 }
 
 <style>
@@ -15,6 +17,15 @@
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 15px;
+    }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+        color: #721c24;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-bottom: 20px;
     }
 
     header {
@@ -101,8 +112,8 @@
     .review-card {
         border: 1px solid #ddd;
         padding: 15px;
-        border-radius: 6px;
-        background-color: #f9f9f9;
+        margin-bottom: 15px;
+        background: white;
     }
 
         .review-card h3 {
@@ -139,133 +150,99 @@
 
 </style>
 
-
-<script>
-
-        // Mock Data for Initial Reviews
-    let reviews = [
-        { id: 1, name: "Sarah Johnson", rating: 5, comment: "Absolutely love their chocolate fudge cake! It was moist, rich, and delivered on time. Will definitely order again!", date: "2023-10-15" },
-        { id: 2, name: "Michael Brown", rating: 4, comment: "The croissants are amazing and flaky. Only downside was the packaging could be better, but the taste made up for it.", date: "2023-10-10" },
-        { id: 3, name: "Emily Davis", rating: 5, comment: "Ordered a dozen cupcakes for a birthday party, and everyone loved them. Beautifully decorated and super fresh!", date: "2023-10-05" },
-        { id: 4, name: "James Wilson", rating: 3, comment: "The bread was good, but I felt the price was a bit high for the portion size. Delivery was quick though.", date: "2023-09-28" }
-    ];
-
-    // Load data from localStorage if available
-    function loadData() {
-        const savedReviews = localStorage.getItem('reviews');
-        if (savedReviews) {
-            reviews = JSON.parse(savedReviews);
-        }
-    }
-
-    // Save data to localStorage
-    function saveData() {
-        localStorage.setItem('reviews', JSON.stringify(reviews));
-    }
-
-    // Render Reviews
-    function renderReviews() {
-        const reviewList = document.getElementById('reviewList');
-        reviewList.innerHTML = '';
-        reviews.forEach(review => {
-            const reviewCard = document.createElement('div');
-            reviewCard.classList.add('review-card');
-            reviewCard.innerHTML = `
-                <h3>${review.name}</h3>
-                <div class="rating">${getStarRating(review.rating)}</div>
-                <div class="date">Posted on: ${review.date}</div>
-                <p>${review.comment}</p>
-            `;
-            reviewList.appendChild(reviewCard);
-        });
-    }
-
-    // Generate Star Rating HTML
-    function getStarRating(rating) {
-        let stars = '';
-        for (let i = 1; i <= 5; i++) {
-            stars += i <= rating ? '★' : '☆';
-        }
-        return stars;
-    }
-
-    // Handle Form Submission
-    document.getElementById('reviewForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        const nameInput = document.getElementById('customerName');
-        const ratingInput = document.getElementById('rating');
-        const commentInput = document.getElementById('comment');
-
-        const name = nameInput.value.trim();
-        const rating = parseInt(ratingInput.value);
-        const comment = commentInput.value.trim();
-
-        if (name && rating && comment) {
-            // Get current date in YYYY-MM-DD format
-            const currentDate = new Date().toISOString().split('T')[0];
-            const newId = reviews.length > 0 ? Math.max(...reviews.map(r => r.id)) + 1 : 1;
-            const newReview = {
-                id: newId,
-                name: name,
-                rating: rating,
-                comment: comment,
-                date: currentDate
-            };
-            reviews.unshift(newReview); // Add new review to the top
-            nameInput.value = '';
-            ratingInput.value = '5';
-            commentInput.value = '';
-            saveData();
-            renderReviews();
-            alert('Thank you for your review!');
-        } else {
-            alert('Please fill in all fields.');
-        }
-    });
-
-    // Initialize the page
-    function init() {
-        loadData();
-        renderReviews();
-    }
-
-    window.onload = init;
-
-</script>
-
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
 
 <div class="container">
-    <h1>Customer Reviews</h1>
-    <p>Read what our customers have to say about our bakery!</p>
+    <header>
+        <h1>Customer Reviews</h1>
+        <p>Read what our customers have to say about our bakery!</p>
+    </header>
 
-    <section class="review-form">
-        <h2>Leave a Review</h2>
-        <form id="reviewForm">
-            <div class="form-group">
-                <label for="customerName">Your Name:</label>
-                <input type="text" id="customerName" placeholder="Enter your name" required>
-            </div>
-            <div class="form-group">
-                <label for="rating">Rating:</label>
-                <select id="rating" required>
-                    <option value="5">5 Stars ★★★★★</option>
-                    <option value="4">4 Stars ★★★★☆</option>
-                    <option value="3">3 Stars ★★★☆☆</option>
-                    <option value="2">2 Stars ★★☆☆☆</option>
-                    <option value="1">1 Star ★☆☆☆☆</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="comment">Your Review:</label>
-                <textarea id="comment" placeholder="Share your experience..." rows="4" required></textarea>
-            </div>
-            <button type="submit">Submit Review</button>
-        </form>
-    </section>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <section class="review-form">
+            <h2>Leave a Review</h2>
+            <form asp-action="Create" method="post" id="reviewForm">
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    <label asp-for="ProductId">Product:</label>
+                    <select asp-for="ProductId" asp-items="Model.Products" class="form-control" required>
+                        <option value="">Select a Product</option>
+                    </select>
+                    <span asp-validation-for="ProductId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Rating">Rating:</label>
+                    <select asp-for="Rating" class="form-control" required>
+                        <option value="">Select Rating</option>
+                        <option value="5">5 Stars ★★★★★</option>
+                        <option value="4">4 Stars ★★★★☆</option>
+                        <option value="3">3 Stars ★★★☆☆</option>
+                        <option value="2">2 Stars ★★☆☆☆</option>
+                        <option value="1">1 Star ★☆☆☆☆</option>
+                    </select>
+                    <span asp-validation-for="Rating" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Comment">Your Review:</label>
+                    <textarea asp-for="Comment" class="form-control" rows="4" required
+                              placeholder="Share your experience..."></textarea>
+                    <span asp-validation-for="Comment" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit Review</button>
+            </form>
+        </section>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            Please <a asp-area="Identity" asp-page="/Account/Login">login</a> to leave a review.
+        </div>
+    }
 
     <section class="reviews-list">
         <h2>Recent Reviews</h2>
-        <div id="reviewList"></div>
+        <div id="reviewList">
+            @if (Model.ExistingReviews.Any())
+            {
+                foreach (var review in Model.ExistingReviews)
+                {
+                    <div class="review-card">
+                        <h3>@review.User?.FullName</h3>
+                        <div class="rating">
+                            @for (int i = 0; i < review.Rating; i++)
+                            {
+                                <span>★</span>
+                            }
+                        </div>
+                        @if (review.Product != null)
+                        {
+                            <p class="product">For: @review.Product.Name</p>
+                        }
+                        <p class="comment">@review.Comment</p>
+                        <small class="date">Posted on: @review.CreatedAt.ToString("MMMM d, yyyy")</small>
+
+
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No reviews yet. Be the first to review!</p>
+            }
+        </div>
     </section>
 </div>

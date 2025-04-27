@@ -6,19 +6,27 @@ namespace MVC_Project.Data
     {
         public static void Initialize(BakeryDbContext context)
         {
-            context.Database.EnsureCreated();
+            if (context.Products.Any()) return;
 
-            if (context.Products.Any())
-            {
-                return; // DB has been seeded
+            var products = new List<Product>
+        {
+            new Product {
+                Name = "Apple Pie",
+                Description = "Homemade with Granny Smith apples",
+                Price = 27.99m,
+                StockQuantity = 20,
+                ImageUrl = "/images/apple-pie.jpg",
+                Category = "Pies"
+            },
+            new Product {
+                Name = "Croissant",
+                Description = "Flaky French-style pastry",
+                Price = 15.99m,
+                StockQuantity = 40,
+                ImageUrl = "/images/croissant.jpg",
+                Category = "Pastries"
             }
-
-            var products = new Product[]
-            {
-            new Product{Name="Chocolate Cake", Description="Rich chocolate cake", Price=25.99m, StockQuantity=10, Category="Cake"},
-            new Product{Name="Croissant", Description="Buttery French croissant", Price=3.50m, StockQuantity=30, Category="Pastry"},
-                // Add more products
-            };
+        };
 
             context.Products.AddRange(products);
             context.SaveChanges();

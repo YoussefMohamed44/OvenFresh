@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Matrials\\MVC Project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj": {}
+    "C:\\Users\\Ramy\\Desktop\\FCI\\Year 3\\2nd Semester\\Software Development (.NET)\\project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj": {}
   },
   "projects": {
-    "E:\\Matrials\\MVC Project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj": {
+    "C:\\Users\\Ramy\\Desktop\\FCI\\Year 3\\2nd Semester\\Software Development (.NET)\\project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Matrials\\MVC Project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj",
+        "projectUniqueName": "C:\\Users\\Ramy\\Desktop\\FCI\\Year 3\\2nd Semester\\Software Development (.NET)\\project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj",
         "projectName": "MVC Project",
-        "projectPath": "E:\\Matrials\\MVC Project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj",
-        "packagesPath": "C:\\Users\\TW\\.nuget\\packages\\",
-        "outputPath": "E:\\Matrials\\MVC Project\\OvenFresh-online-bakery\\MVC Project\\obj\\",
+        "projectPath": "C:\\Users\\Ramy\\Desktop\\FCI\\Year 3\\2nd Semester\\Software Development (.NET)\\project\\OvenFresh-online-bakery\\MVC Project\\MVC Project.csproj",
+        "packagesPath": "C:\\Users\\Ramy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ramy\\Desktop\\FCI\\Year 3\\2nd Semester\\Software Development (.NET)\\project\\OvenFresh-online-bakery\\MVC Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ramy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -56,7 +56,7 @@
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -102,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
