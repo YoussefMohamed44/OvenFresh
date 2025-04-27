@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVC_Project.Data;
+using UserRoles.Data;
 
 namespace MVC_Project.Controllers
 {
@@ -12,10 +13,17 @@ namespace MVC_Project.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult TestConnection()
         {
-            var products = _context.Products.ToList();
-            return View(products);
+            try
+            {
+                var canConnect = _context.Database.CanConnect();
+                return Ok($"Database connection successful! CanConnect: {canConnect}");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Connection failed: {ex.Message}");
+            }
         }
     }
 }

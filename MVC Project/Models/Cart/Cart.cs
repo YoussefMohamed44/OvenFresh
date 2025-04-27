@@ -8,7 +8,7 @@ public class Cart
 
     [Required]
     [ForeignKey("User")]
-    public int UserId { get; set; }
+    public string UserId { get; set; } // Change from int to string
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime? UpdatedAt { get; set; }

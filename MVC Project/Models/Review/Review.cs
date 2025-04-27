@@ -8,7 +8,7 @@ public class Review
 
     [Required]
     [ForeignKey("User")]
-    public int UserId { get; set; }
+    public string UserId { get; set; }
 
     [Required]
     [ForeignKey("Product")]

@@ -1,22 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-public class User
+public class User : IdentityUser
 {
-    [Key]
-    public int UserId { get; set; }
-
-    [Required]
-    [StringLength(100)]
-    public string Name { get; set; }
-
-    [Required]
-    [EmailAddress]
-    [StringLength(100)]
-    public string Email { get; set; }
-
-    [Required]
-    public string PasswordHash { get; set; }
+     
+    [StringLength(50)]
+    public string FullName { get; set; }
 
     [Required]
     [StringLength(20)]
@@ -28,7 +18,6 @@ public class User
 
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
     public DateTime? UpdatedAt { get; set; }
 
     public virtual ICollection<PasswordResetToken> PasswordResetTokens { get; set; }

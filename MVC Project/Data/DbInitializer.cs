@@ -1,4 +1,6 @@
-﻿namespace MVC_Project.Data
+﻿using UserRoles.Data;
+
+namespace MVC_Project.Data
 {
     public static class DbInitializer
     {

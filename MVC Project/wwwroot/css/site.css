@@ -318,3 +318,14 @@ span {
         padding: 10px;
     }
 }
+
+.btn-link.text-dark {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+    .btn-link.text-dark:hover {
+        text-decoration: underline;
+    }

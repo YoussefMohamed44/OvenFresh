@@ -1,4 +1,7 @@
-﻿@{
+﻿@using UserRoles.ViewModels
+@model RegisterViewModel
+
+@{
     ViewData["Title"] = "Register";
 }
 
@@ -194,55 +197,85 @@
 
 </style>
 
-    <div class="limiter">
-        <div class="container-login100">
-            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-                <form class="login100-form validate-form">
-                    <span class="login100-form-title p-b-33">
-                        Account Signup
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+            <form class="login100-form validate-form" asp-action="Register" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <span class="login100-form-title p-b-33">
+                    Account Signup
+                </span>
+
+                <div class="wrap-input100 validate-input">
+                    <input class="input100" asp-for="Name" placeholder="Name">
+                    <span class="focus-input100-1"></span>
+                    <span class="focus-input100-2"></span>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <input class="input100" asp-for="Email" placeholder="Email">
+                    <span class="focus-input100-1"></span>
+                    <span class="focus-input100-2"></span>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <input class="input100" asp-for="Address" placeholder="Address">
+                    <span class="focus-input100-1"></span>
+                    <span class="focus-input100-2"></span>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <input class="input100" asp-for="Password" placeholder="Password">
+                    <span class="focus-input100-1"></span>
+                    <span class="focus-input100-2"></span>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <input class="input100" asp-for="ConfirmPassword" placeholder="Confirm Password">
+                    <span class="focus-input100-1"></span>
+                    <span class="focus-input100-2"></span>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="container-login100-form-btn m-t-20">
+                    <button type="submit" class="login100-form-btn">
+                        Sign Up
+                    </button>
+                </div>
+
+                <div class="text-center p-t-45 p-b-4">
+                    <span class="txt1">
+                        Already have an account?
                     </span>
-
-                    <div class="wrap-input100 validate-input" data-validate="Name is required">
-                        <input class="input100" type="text" name="name" placeholder="Full Name">
-                        <span class="focus-input100-1"></span>
-                        <span class="focus-input100-2"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input100" type="text" name="email" placeholder="Email">
-                        <span class="focus-input100-1"></span>
-                        <span class="focus-input100-2"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-                        <input class="input100" type="password" name="pass" placeholder="Password">
-                        <span class="focus-input100-1"></span>
-                        <span class="focus-input100-2"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Confirm Password is required">
-                        <input class="input100" type="password" name="confirm-pass" placeholder="Confirm Password">
-                        <span class="focus-input100-1"></span>
-                        <span class="focus-input100-2"></span>
-                    </div>
-
-                    <div class="container-login100-form-btn m-t-20">
-                        <button class="login100-form-btn">
-                            Sign Up
-                        </button>
-                    </div>
-
-                    <div class="text-center p-t-45 p-b-4">
-                        <span class="txt1">
-                            Already have an account?
-                        </span>
-                        <a href="Login" class="txt2 hov1">
-                            Sign In
-                        </a>
-                    </div>
-                </form>
-            </div>
+                    <a asp-action="Login" class="txt2 hov1">
+                        Sign In
+                    </a>
+                </div>
+            </form>
         </div>
     </div>
+</div>
 
-    <script src="script.js"></script>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const inputs = document.querySelectorAll('.input100');
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.nextElementSibling.classList.add('active');
+                });
+                input.addEventListener('blur', function() {
+                    if (this.value === '') {
+                        this.nextElementSibling.classList.remove('active');
+                    }
+                });
+            });
+        });
+    </script>
+}

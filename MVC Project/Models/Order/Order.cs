@@ -8,7 +8,7 @@ public class Order
 
     [Required]
     [ForeignKey("User")]
-    public int UserId { get; set; }
+    public string UserId { get; set; }
 
     [Required]
     public DateTime OrderDate { get; set; } = DateTime.UtcNow;

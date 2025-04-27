@@ -893,3 +893,184 @@ C:\Users\7akee\OneDrive\Desktop\OvenFresh\MVC Project\obj\Debug\net8.0\refint\MV
 C:\Users\7akee\OneDrive\Desktop\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.pdb
 C:\Users\7akee\OneDrive\Desktop\OvenFresh\MVC Project\obj\Debug\net8.0\MVC Project.genruntimeconfig.cache
 C:\Users\7akee\OneDrive\Desktop\OvenFresh\MVC Project\obj\Debug\net8.0\ref\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\appsettings.Development.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\appsettings.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\MVC Project.staticwebassets.runtime.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\MVC Project.staticwebassets.endpoints.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\MVC Project.exe
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\MVC Project.deps.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\MVC Project.runtimeconfig.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\MVC Project.pdb
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Azure.Core.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Azure.Identity.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Humanizer.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.ClientModel.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.CodeDom.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Formats.Asn1.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Text.Json.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.csproj.AssemblyReference.cache
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfoInputs.cache
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.AssemblyInfo.cs
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.csproj.CoreCompileInputs.cache
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.MvcApplicationPartsAssemblyInfo.cache
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cache
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.RazorAssemblyInfo.cs
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.sourcelink.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\scopedcss\bundle\MVC Project.styles.css
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\scopedcss\projectbundle\MVC Project.bundle.scp.css
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets.build.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets.development.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.MVC Project.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.MVC Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.build.MVC Project.props
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MVC Project.props
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MVC Project.props
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Proj.5007E989.Up2Date
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\refint\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.pdb
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\MVC Project.genruntimeconfig.cache
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\ref\MVC Project.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\SendGrid.dll
+E:\Matrials\MVC Project\OvenFresh-online-bakery\MVC Project\bin\Debug\net8.0\StarkbankEcdsa.dll
