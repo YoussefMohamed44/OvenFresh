@@ -5,13 +5,13 @@
 
 <script>
 
-        document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         // Select all add-to-cart buttons
         const addToCartButtons = document.querySelectorAll('.add-to-cart');
 
         // Add click event listener to each button
         addToCartButtons.forEach(button => {
-            button.addEventListener('click', function(event) {
+            button.addEventListener('click', function (event) {
                 // Prevent the default action of the button if it's a form submission
                 event.preventDefault();
 
@@ -107,89 +107,118 @@
         transition: background-color 0.3s ease;
     }
 
-    .add-to-cart:hover {
+        .add-to-cart:hover {
             background-color: rgba(44, 62, 80, 0.8);
-    }
-
-    .SearchBarContainer{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-    }
-
-    .SearchBar{
-        border-radius: 10px;
-        border: 3px solid rgba(44, 62, 80, 0.8);
-        background-color: white;
-        color: black;
-        padding-left:20px;
-        padding-right: 20px;
-        font-size: 20px;
-    }
-
-    .circle-button {
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        border: none;
-        background-color: white;
-        border:3px solid rgba(44, 62, 80, 0.8);
-        font-size: 20px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 0.3s ease;
-        margin-left: 5px;
-    }
-
-        .circle-button:hover {
-            background-color: rgba(44, 62, 80, 0.8);
-            border-color:white;
         }
 
 </style>
+<!--SEARCH BAR-->
+<div class="row justify-content-center mb-5">
+    <div class="col-12 col-md-10 col-lg-5">
+        <form class="card card-sm border-0" id="searchForm" action="/Product/Index" method="get" autocomplete="off">
+            <div class="card-body row">
+                <div class="col">
+                    <div class="input-group">
+                        <input type="text" id="searchString" name="searchString" class="form-control form-control-lg rounded"
+                               autocomplete="off" onkeyup="XAjaxRequest(this.value);" placeholder="Search products" required>
+                    </div>
+                </div>
 
-
-
-<div class="SearchBarContainer">
-    
-    <input class ="SearchBar" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..">
-    <button class="circle-button"><i class="fas fa-magnifying-glass"></i></button>
-
+                <div class="col-auto">
+                    <button class="btn btn-lg btn-success" type="submit"> search</button>
+                </div>
+            </div>
+        </form>
+        <div id="autoSuggestContainer" class="autoSuggest" style="border: none;"></div>
+    </div>
 </div>
+@{
 
+
+}
 <div class="container">
     <h1 class="page-title">Our Bakery Products</h1>
     <div class="products-grid">
-        <!-- REPLACE HARDCODED PRODUCTS WITH DYNAMIC ONES -->
-        @foreach (var product in Model)
+        <!-- Product 1 -->
+        @foreach (var item in Model)
         {
-            <div class="product-item">
-                <!-- Link product image to Details page -->
-                <a asp-action="Details" asp-route-id="@product.ProductId">
-                    <img src="@product.ImageUrl" alt="@product.Name" class="product-image">
-                </a>
-                <h2 class="product-name">
-                    <a asp-action="Details" asp-route-id="@product.ProductId" style="color: inherit; text-decoration: none;">
-                        @product.Name
+
+            <div class="col mb-4">
+                <div class="card h-100 card-format">
+                    <a asp-action="Details" asp-route-id="@item.ProductId">
+                        <img src="@Url.Content("~/uploads/" + item.ImageUrl)" alt="Product Image" class="card-img-top">
                     </a>
-                </h2>
-                <p class="product-price">$@product.Price.ToString("0.00")</p>
-                <button class="add-to-cart"
-                        data-product-id="@product.ProductId"
-                        data-product-name="@product.Name"
-                        data-product-price="@product.Price">
-                    Add to Cart
-                </button>
-                <!-- Add review count link -->
-                <div class="product-reviews" style="margin-top: 10px;">
-                    <a asp-controller="Reviews" asp-action="Index" asp-route-productId="@product.ProductId"
-                       style="color: rgb(44, 62, 80); font-size: 0.9em;">
-                        @(product.Reviews?.Count ?? 0) reviews
-                    </a>
+                    <div class="card-body">
+                        <a asp-action="Details" asp-route-id="@item.ProductId" class="no-link-style">
+                            <h5 class="card-title text-center mb-4">@Html.DisplayFor(modelItem => item.Name)</h5>
+                            <h6 class="card-subtitle mb-3">@Html.DisplayFor(modelItem => item.Category)</h6>
+                        </a>
+                        <p class="card-text mb-1">@Html.Raw(item.Description)</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <h6 class="card-title">$@Html.DisplayFor(modelItem => item.Price) <span class="currency">nzd</span></h6>
+                        @if (item.StockQuantity > 0)
+                        {
+                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@item.ProductId" class="btn btn-md btn-primary">Add to Cart</a>
+                        }
+                        else
+                        {
+                            <a>comming soon</a>
+                        }
+                    </div>
+                    <!-- Add review count link -->
+                    <div class="product-reviews" style="margin-top: 10px;">
+                        <a asp-controller="Reviews" asp-action="Index" asp-route-productId="@item.ProductId"
+                           style="color: rgb(44, 62, 80); font-size: 0.9em;">
+                            @(item.Reviews?.Count ?? 0) reviews
+                        </a>
+                        </div>
                 </div>
             </div>
         }
+
     </div>
 </div>
+@*auto suggestion*@
+<script type="text/javascript">
+    function XAjaxRequest(searchString) {
+        if (searchString.length < 1) {
+            autoSuggestContainer.innerHTML = "";
+            autoSuggestContainer.classList.remove("show-border");
+            return;
+        } else {
+            autoSuggestContainer.classList.add("show-border");
+        }
+
+
+        //alert("testing searchString=" + searchString);
+        var xmlhttp;
+        xmlhttp = new XMLHttpRequest();
+        var url = "/Product/IndexAJAX?searchString=" + searchString;
+        // open connection, GET is quick and simple, false: sync page will freeze
+        xmlhttp.open("GET", url, false);
+        // send the request to IndexAJAX
+        xmlhttp.send();
+        document.getElementById("autoSuggestContainer").style.display = "block";
+        //need to clear out the container for a fresh auto-suggest list
+        //else the auto-suggest list can keep growing and growing with additional user keyups
+        document.getElementById("autoSuggestContainer").innerHTML = "";
+
+        var messageObject = JSON.parse(xmlhttp.responseText); // receive the respose text
+
+        var autoSuggestions = "";
+
+        for (var i = 0; i < messageObject.length; i++) {
+            //HTML code generation demo
+            //Works together with the ".innerHTML" statement after the end of this "for" block
+            autoSuggestions +=
+                "<input type=\"button\" value=\"" + messageObject[i].Name + "\" "
+                + "onclick=\"document.getElementById('searchString').value = this.value; document.getElementById('searchForm').submit();\" "
+                + "style=\"background-color: #f2f2f2;\" />";
+
+            autoSuggestions += "<br />";
+        }
+        //place the generated buttons HTML code inside the display div
+        document.getElementById("autoSuggestContainer").innerHTML = autoSuggestions;
+    }
+</script>
